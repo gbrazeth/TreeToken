@@ -1,0 +1,29 @@
+# Node modules and dependencies
+node_modules/
+
+# Hardhat and build artifacts
+artifacts/
+cache/
+
+# dotenv environment variables
+.env
+
+# VSCode and OS files
+.vscode/
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build (if any)
+dist/
+build/
+
+# Ignore test coverage
+coverage/
+
+# Ignore local ngrok config
+ngrok.yml
+.env
